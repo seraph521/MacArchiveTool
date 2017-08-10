@@ -1,0 +1,4 @@
+target '自动打包器' do
+
+pod 'SSZipArchive'
+end

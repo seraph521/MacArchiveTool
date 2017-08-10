@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1075381F00ACEB00641160 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1075371F00ACEB00641160 /* DragView.m */; };
+		3C244CAA1F15C75F005F4CD1 /* ArchieveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C244CA91F15C75F005F4CD1 /* ArchieveTool.m */; };
+		3C2E685D1F05E1D900AB56AF /* NSImage+Categary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E685C1F05E1D900AB56AF /* NSImage+Categary.m */; };
+		3C5806381F04D2A900EB985F /* InstallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5806371F04D2A900EB985F /* InstallViewController.m */; };
+		3C5D6D881F03A37C0063080D /* fruitstrap in Resources */ = {isa = PBXBuildFile; fileRef = 3C5D6D871F03A37C0063080D /* fruitstrap */; };
+		3C5D6D8A1F03CE800063080D /* fruitstrap.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3C5D6D891F03CE800063080D /* fruitstrap.zip */; };
+		3C8777F41EF8AACF0041D192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8777F31EF8AACF0041D192 /* AppDelegate.m */; };
+		3C8777F71EF8AACF0041D192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8777F61EF8AACF0041D192 /* main.m */; };
+		3C8777FA1EF8AACF0041D192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8777F91EF8AACF0041D192 /* ViewController.m */; };
+		3C8777FC1EF8AACF0041D192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8777FB1EF8AACF0041D192 /* Assets.xcassets */; };
+		3C8777FF1EF8AACF0041D192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8777FD1EF8AACF0041D192 /* Main.storyboard */; };
+		3C8778091EF8C7630041D192 /* autobuild_debug.py in Resources */ = {isa = PBXBuildFile; fileRef = 3C8778071EF8C7630041D192 /* autobuild_debug.py */; };
+		3C87780A1EF8C7630041D192 /* exportOptions_debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C8778081EF8C7630041D192 /* exportOptions_debug.plist */; };
+		3C87780D1EF8C7EA0041D192 /* autobuild_release.py in Resources */ = {isa = PBXBuildFile; fileRef = 3C87780B1EF8C7EA0041D192 /* autobuild_release.py */; };
+		3C87780E1EF8C7EA0041D192 /* exportOptions_release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C87780C1EF8C7EA0041D192 /* exportOptions_release.plist */; };
+		3C8778181EF8F8FA0041D192 /* DJActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8778111EF8F8FA0041D192 /* DJActivityIndicator.m */; };
+		3C8778191EF8F8FA0041D192 /* DJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8778131EF8F8FA0041D192 /* DJBezierPath.m */; };
+		3C87781A1EF8F8FA0041D192 /* DJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8778151EF8F8FA0041D192 /* DJProgressHUD.m */; };
+		3C87781B1EF8F8FA0041D192 /* DJProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8778171EF8F8FA0041D192 /* DJProgressIndicator.m */; };
+		4A4DE27172D3A81D8ABA44B1 /* libPods-自动打包器.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40169A67E327603DCAFAC35C /* libPods-自动打包器.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34204D44623C8CF27D18E572 /* Pods-自动打包器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自动打包器.release.xcconfig"; path = "Pods/Target Support Files/Pods-自动打包器/Pods-自动打包器.release.xcconfig"; sourceTree = "<group>"; };
+		3C1075361F00ACEB00641160 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		3C1075371F00ACEB00641160 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		3C244CA81F15C75F005F4CD1 /* ArchieveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchieveTool.h; sourceTree = "<group>"; };
+		3C244CA91F15C75F005F4CD1 /* ArchieveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchieveTool.m; sourceTree = "<group>"; };
+		3C2E685B1F05E1D900AB56AF /* NSImage+Categary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Categary.h"; sourceTree = "<group>"; };
+		3C2E685C1F05E1D900AB56AF /* NSImage+Categary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Categary.m"; sourceTree = "<group>"; };
+		3C5806361F04D2A900EB985F /* InstallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallViewController.h; sourceTree = "<group>"; };
+		3C5806371F04D2A900EB985F /* InstallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallViewController.m; sourceTree = "<group>"; };
+		3C5D6D871F03A37C0063080D /* fruitstrap */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = fruitstrap; sourceTree = "<group>"; };
+		3C5D6D891F03CE800063080D /* fruitstrap.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = fruitstrap.zip; sourceTree = "<group>"; };
+		3C8777EF1EF8AACF0041D192 /* 自动打包器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动打包器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8777F21EF8AACF0041D192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C8777F31EF8AACF0041D192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C8777F61EF8AACF0041D192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C8777F81EF8AACF0041D192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C8777F91EF8AACF0041D192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C8777FB1EF8AACF0041D192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8777FE1EF8AACF0041D192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C8778001EF8AACF0041D192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8778071EF8C7630041D192 /* autobuild_debug.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = autobuild_debug.py; sourceTree = "<group>"; };
+		3C8778081EF8C7630041D192 /* exportOptions_debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions_debug.plist; sourceTree = "<group>"; };
+		3C87780B1EF8C7EA0041D192 /* autobuild_release.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = autobuild_release.py; sourceTree = "<group>"; };
+		3C87780C1EF8C7EA0041D192 /* exportOptions_release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions_release.plist; sourceTree = "<group>"; };
+		3C8778101EF8F8FA0041D192 /* DJActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJActivityIndicator.h; sourceTree = "<group>"; };
+		3C8778111EF8F8FA0041D192 /* DJActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJActivityIndicator.m; sourceTree = "<group>"; };
+		3C8778121EF8F8FA0041D192 /* DJBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJBezierPath.h; sourceTree = "<group>"; };
+		3C8778131EF8F8FA0041D192 /* DJBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJBezierPath.m; sourceTree = "<group>"; };
+		3C8778141EF8F8FA0041D192 /* DJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressHUD.h; sourceTree = "<group>"; };
+		3C8778151EF8F8FA0041D192 /* DJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressHUD.m; sourceTree = "<group>"; };
+		3C8778161EF8F8FA0041D192 /* DJProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressIndicator.h; sourceTree = "<group>"; };
+		3C8778171EF8F8FA0041D192 /* DJProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressIndicator.m; sourceTree = "<group>"; };
+		40169A67E327603DCAFAC35C /* libPods-自动打包器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自动打包器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B02B85EE9F9CBC1CE9AB47 /* Pods-自动打包器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自动打包器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自动打包器/Pods-自动打包器.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8777EC1EF8AACF0041D192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4DE27172D3A81D8ABA44B1 /* libPods-自动打包器.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373E89F3443980841A6C5280 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B02B85EE9F9CBC1CE9AB47 /* Pods-自动打包器.debug.xcconfig */,
+				34204D44623C8CF27D18E572 /* Pods-自动打包器.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C244CA71F15C724005F4CD1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3C244CA81F15C75F005F4CD1 /* ArchieveTool.h */,
+				3C244CA91F15C75F005F4CD1 /* ArchieveTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3C2E685A1F05E18F00AB56AF /* categary */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E685B1F05E1D900AB56AF /* NSImage+Categary.h */,
+				3C2E685C1F05E1D900AB56AF /* NSImage+Categary.m */,
+			);
+			path = categary;
+			sourceTree = "<group>";
+		};
+		3C8777E61EF8AACF0041D192 = {
+			isa = PBXGroup;
+			children = (
+				3C8777F11EF8AACF0041D192 /* 自动打包器 */,
+				3C8777F01EF8AACF0041D192 /* Products */,
+				373E89F3443980841A6C5280 /* Pods */,
+				7B019F375798C91D691B61AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8777F01EF8AACF0041D192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8777EF1EF8AACF0041D192 /* 自动打包器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8777F11EF8AACF0041D192 /* 自动打包器 */ = {
+			isa = PBXGroup;
+			children = (
+				3C244CA71F15C724005F4CD1 /* Tool */,
+				3C2E685A1F05E18F00AB56AF /* categary */,
+				3C87780F1EF8F8FA0041D192 /* DJProgressHUD */,
+				3C8778061EF8C7240041D192 /* python */,
+				3C8777F21EF8AACF0041D192 /* AppDelegate.h */,
+				3C8777F31EF8AACF0041D192 /* AppDelegate.m */,
+				3C8777F81EF8AACF0041D192 /* ViewController.h */,
+				3C8777F91EF8AACF0041D192 /* ViewController.m */,
+				3C8777FB1EF8AACF0041D192 /* Assets.xcassets */,
+				3C8777FD1EF8AACF0041D192 /* Main.storyboard */,
+				3C8778001EF8AACF0041D192 /* Info.plist */,
+				3C8777F51EF8AACF0041D192 /* Supporting Files */,
+				3C1075361F00ACEB00641160 /* DragView.h */,
+				3C1075371F00ACEB00641160 /* DragView.m */,
+				3C5806361F04D2A900EB985F /* InstallViewController.h */,
+				3C5806371F04D2A900EB985F /* InstallViewController.m */,
+			);
+			path = "自动打包器";
+			sourceTree = "<group>";
+		};
+		3C8777F51EF8AACF0041D192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C8777F61EF8AACF0041D192 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C8778061EF8C7240041D192 /* python */ = {
+			isa = PBXGroup;
+			children = (
+				3C5D6D891F03CE800063080D /* fruitstrap.zip */,
+				3C5D6D871F03A37C0063080D /* fruitstrap */,
+				3C87780B1EF8C7EA0041D192 /* autobuild_release.py */,
+				3C87780C1EF8C7EA0041D192 /* exportOptions_release.plist */,
+				3C8778071EF8C7630041D192 /* autobuild_debug.py */,
+				3C8778081EF8C7630041D192 /* exportOptions_debug.plist */,
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+		3C87780F1EF8F8FA0041D192 /* DJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3C8778101EF8F8FA0041D192 /* DJActivityIndicator.h */,
+				3C8778111EF8F8FA0041D192 /* DJActivityIndicator.m */,
+				3C8778121EF8F8FA0041D192 /* DJBezierPath.h */,
+				3C8778131EF8F8FA0041D192 /* DJBezierPath.m */,
+				3C8778141EF8F8FA0041D192 /* DJProgressHUD.h */,
+				3C8778151EF8F8FA0041D192 /* DJProgressHUD.m */,
+				3C8778161EF8F8FA0041D192 /* DJProgressIndicator.h */,
+				3C8778171EF8F8FA0041D192 /* DJProgressIndicator.m */,
+			);
+			path = DJProgressHUD;
+			sourceTree = "<group>";
+		};
+		7B019F375798C91D691B61AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40169A67E327603DCAFAC35C /* libPods-自动打包器.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8777EE1EF8AACF0041D192 /* 自动打包器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8778031EF8AACF0041D192 /* Build configuration list for PBXNativeTarget "自动打包器" */;
+			buildPhases = (
+				854438455E4A978E5F59E723 /* [CP] Check Pods Manifest.lock */,
+				3C8777EB1EF8AACF0041D192 /* Sources */,
+				3C8777EC1EF8AACF0041D192 /* Frameworks */,
+				3C8777ED1EF8AACF0041D192 /* Resources */,
+				5B4FFAECADD7B2F85EAE7DBF /* [CP] Embed Pods Frameworks */,
+				8FE29266ABA604017FF708F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动打包器";
+			productName = "自动打包器";
+			productReference = 3C8777EF1EF8AACF0041D192 /* 自动打包器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8777E71EF8AACF0041D192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XFX;
+				TargetAttributes = {
+					3C8777EE1EF8AACF0041D192 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C8777EA1EF8AACF0041D192 /* Build configuration list for PBXProject "自动打包器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C8777E61EF8AACF0041D192;
+			productRefGroup = 3C8777F01EF8AACF0041D192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8777EE1EF8AACF0041D192 /* 自动打包器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8777ED1EF8AACF0041D192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C87780D1EF8C7EA0041D192 /* autobuild_release.py in Resources */,
+				3C87780E1EF8C7EA0041D192 /* exportOptions_release.plist in Resources */,
+				3C8778091EF8C7630041D192 /* autobuild_debug.py in Resources */,
+				3C5D6D8A1F03CE800063080D /* fruitstrap.zip in Resources */,
+				3C8777FC1EF8AACF0041D192 /* Assets.xcassets in Resources */,
+				3C5D6D881F03A37C0063080D /* fruitstrap in Resources */,
+				3C8777FF1EF8AACF0041D192 /* Main.storyboard in Resources */,
+				3C87780A1EF8C7630041D192 /* exportOptions_debug.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B4FFAECADD7B2F85EAE7DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自动打包器/Pods-自动打包器-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854438455E4A978E5F59E723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE29266ABA604017FF708F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自动打包器/Pods-自动打包器-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8777EB1EF8AACF0041D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8778191EF8F8FA0041D192 /* DJBezierPath.m in Sources */,
+				3C87781B1EF8F8FA0041D192 /* DJProgressIndicator.m in Sources */,
+				3C8778181EF8F8FA0041D192 /* DJActivityIndicator.m in Sources */,
+				3C8777FA1EF8AACF0041D192 /* ViewController.m in Sources */,
+				3C8777F71EF8AACF0041D192 /* main.m in Sources */,
+				3C87781A1EF8F8FA0041D192 /* DJProgressHUD.m in Sources */,
+				3C5806381F04D2A900EB985F /* InstallViewController.m in Sources */,
+				3C1075381F00ACEB00641160 /* DragView.m in Sources */,
+				3C2E685D1F05E1D900AB56AF /* NSImage+Categary.m in Sources */,
+				3C8777F41EF8AACF0041D192 /* AppDelegate.m in Sources */,
+				3C244CAA1F15C75F005F4CD1 /* ArchieveTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C8777FD1EF8AACF0041D192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C8777FE1EF8AACF0041D192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C8778011EF8AACF0041D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C8778021EF8AACF0041D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C8778041EF8AACF0041D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B02B85EE9F9CBC1CE9AB47 /* Pods-自动打包器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动打包器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seraphic.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C8778051EF8AACF0041D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34204D44623C8CF27D18E572 /* Pods-自动打包器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动打包器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seraphic.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8777EA1EF8AACF0041D192 /* Build configuration list for PBXProject "自动打包器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8778011EF8AACF0041D192 /* Debug */,
+				3C8778021EF8AACF0041D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8778031EF8AACF0041D192 /* Build configuration list for PBXNativeTarget "自动打包器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8778041EF8AACF0041D192 /* Debug */,
+				3C8778051EF8AACF0041D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8777E71EF8AACF0041D192 /* Project object */;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;/ViewController.m"
+            timestampString = "521371920.376964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "@implementation ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;/ViewController.m"
+            timestampString = "521371920.376964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "-installToDevice:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;/ViewController.m"
+            timestampString = "521371920.376964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "-installToDevice:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;/ViewController.m"
+            timestampString = "521371920.376964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "-installToDevice:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController installToDevice:]"
+                  moduleName = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zengzhi/Desktop/%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E5%99%A8/%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E5%99%A8/ViewController.m"
+                  timestampString = "521371113.519843"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "278"
+                  endingLineNumber = "278"
+                  offsetFromSymbolStart = "2079">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[ViewController installToDevice:]_block_invoke.219"
+                  moduleName = "&#x81ea;&#x52a8;&#x6253;&#x5305;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zengzhi/Desktop/%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E5%99%A8/%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E5%99%A8/ViewController.m"
+                  timestampString = "521371113.52226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "278"
+                  endingLineNumber = "278"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
